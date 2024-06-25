@@ -1,6 +1,7 @@
 ---
 const personalImageAlt = "Nacho Mata"
 import Badge from "@/components/Badge.astro"
+import DownloadIcon from "@/components/icons/Download.astro"
 import LinkedInIcon from "@/components/icons/LinkedIn.astro"
 import MailIcon from "@/components/icons/Mail.astro"
 import SocialPill from "@/components/SocialPill.astro"
@@ -41,6 +42,10 @@ import SocialPill from "@/components/SocialPill.astro"
     <SocialPill href="https://linkedin.com/in/nacho-mata">
       <LinkedInIcon class="size-4" />
       LinkedIn
+    </SocialPill>
+    <SocialPill href="/CV-Ignacio-Mata.pdf">
+      <DownloadIcon class="size-4" />
+      Download Resume
     </SocialPill>
   </nav>
 </div>

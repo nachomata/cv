@@ -1,0 +1,29 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EDUCATION = [
+  {
+    date: "September 2020 - September 2024",
+    title: "Bachelor's Degree in Telecommunication engineering",
+    company: "University of Málaga",
+    description:
+      "Specialty in the field of telematics."
+  },
+  {
+    date: "March 2024 - September 2024",
+    title: "Semester exchange",
+    company: "University of Stuttgart",
+    description:
+      "Extra courses: Machine Learning, Reinforcement Learning, System and Web Security, VR & AR, and Smart Cities and IoT.",
+  },
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EDUCATION.map((education) => (
+      <li class="">
+        <ExperienceItem {...education} />
+      </li>
+    ))
+  }
+</ol>

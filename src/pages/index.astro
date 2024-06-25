@@ -3,17 +3,19 @@ import Layout from "@/layouts/Layout.astro"
 
 import AboutMe from "@/components/AboutMe.astro"
 import Briefcase from "@/components/icons/Briefcase.astro"
-import CodeIcon from "@/components/icons/Code.astro"
+import EducationIcon from "@/components/icons/Education.astro"
 import Experience from "@/components/Experience.astro"
 import ProfileCheck from "@/components/icons/ProfileCheck.astro"
-import Projects from "@/components/Projects.astro"
+import Education from "@/components/Education.astro"
 import SectionContainer from "@/components/SectionContainer.astro"
 import Hero from "@/components/Hero.astro"
+import LanguagesIcon from "@/components/icons/Languages.astro"
+import Languages from "@/components/Languages.astro"
 ---
 
 <Layout
-  title="Porfolio de midudev - Desarrollador y Programador Web con 15 años de experiencia"
-  description="Contrata a midudev para crear tu aplicación web o móvil. Desarrollador Web y Creador de Contenido. Especializado en crear aplicaciones únicas."
+  title="Nacho Mata - Telecommunications engineer specializing in telematics"
+  description="Explore the professional profile of Nacho Mata, a telecommunications engineer specializing in telematics."
 >
   <main class="px-4">
     <SectionContainer class="py-16 md:py-36">
@@ -22,32 +24,42 @@ import Hero from "@/components/Hero.astro"
     </Hero>
     </SectionContainer>
     <div class="space-y-24">
-    <SectionContainer id="experiencia">
+    <SectionContainer id="experience">
       <h2
         class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
       >
         <Briefcase class="size-8" />
-        Experiencia laboral
+        Work experience
       </h2>
       <Experience />
     </SectionContainer>
 
-    <SectionContainer id="proyectos">
+    <SectionContainer id="education">
       <h2
         class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
       >
-        <CodeIcon class="size-7" />
-        Proyectos
+        <EducationIcon class="size-7" />
+        Education
       </h2>
-      <Projects />
+      <Education />
     </SectionContainer>
 
-    <SectionContainer id="sobre-mi">
+    <SectionContainer id="languages">
+      <h2
+        class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
+      >
+        <LanguagesIcon class="size-7" />
+        Languages
+      </h2>
+      <Languages />
+    </SectionContainer>
+
+    <SectionContainer id="about-me">
       <h2
         class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white"
       >
         <ProfileCheck class="size-8" />
-        Sobre mí
+        About me
       </h2>
       <AboutMe />
     </SectionContainer>

@@ -1,0 +1,42 @@
+---
+const LANGUAGES = [
+  {
+    name: "Spanish",
+    flag: "🇪🇸",
+    level: "Native",
+  },
+  {
+    name: "English",
+    flag: "🇬🇧",
+    level: "C1",
+    certification: "Aptis ESOL",
+  },
+  {
+    name: "German",
+    flag: "🇩🇪",
+    level: "B1",
+    certification: "Official School of Languages, Spain",
+  },
+];
+---
+
+<ul class="flex flex-col gap-5">
+  {
+    LANGUAGES.map((language) => (
+      <li class="flex flex-col">
+        <h3 class="font-semibold text-xl text-nowrap text-yellow-400">
+          {language.flag} {language.name}
+        </h3>
+        <div class="flex gap-2 ml-10">
+          <span>{language.level}</span>
+          {language.certification && (
+            <>
+              <span class="text-gray-500">— </span>
+              <span class="text-gray-500">{language.certification}</span>
+            </>
+          )}
+        </div>
+      </li>
+    ))
+  }
+</ul>

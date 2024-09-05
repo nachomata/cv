@@ -47,7 +47,7 @@ Extra courses: Machine Learning, Reinforcement Learning, System and Web Security
 
 ## About me
 
-My name is Ignacio Mata but everyone calls me Nacho. I'm finishing my degree in **Telecommunications Engineering, specializing in telematics**, a field I'm passionate about due to its close relationship with computer science.
+My name is Ignacio Mata but everyone calls me Nacho. I just finished my degree in **Telecommunications Engineering, specializing in telematics**, a field I'm passionate about due to its close relationship with computer science.
 
 Since March 2023, I've been working at the Mobilenet laboratory at the University of Malaga. I developed a **network management evaluation platform** that includes several access points centrally managed via a **Python API**, complemented with a **web interface** for easier administration.
 

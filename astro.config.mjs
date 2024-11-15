@@ -10,7 +10,7 @@ export default defineConfig({
     enabled: false
   },
   integrations: [tailwind(), robotsTxt()],
-  site: 'https://porfolio.dev/',
+  site: 'https://nachomata.dev',
   output: "static",
   adapter: vercel({
     webAnalytics: {

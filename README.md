@@ -1,6 +1,6 @@
 # Hi, I'm Nacho Mata
 Telecommunications engineer specializing in telematics.  
-Stuttagart, Germany 🇩🇪.
+Málaga, Spain 🇪🇸.
 
 [LinkedIn](https://www.linkedin.com/in/nacho-mata/)
 
@@ -21,6 +21,12 @@ Developer of a Wi-Fi network management evaluation platform. A network with mult
 ---
 
 ## Education
+
+### Master's Degree in Telematics and Telecommunication Networks
+**University of Málaga**
+September 2024 - Present
+
+Official Master's Degree in the University of Málaga.
 
 ### Bachelor's Degree in Telecommunication Engineering
 **University of Málaga**  
@@ -47,10 +53,12 @@ Extra courses: Machine Learning, Reinforcement Learning, System and Web Security
 
 ## About me
 
-My name is Ignacio Mata but everyone calls me Nacho. I just finished my degree in **Telecommunications Engineering, specializing in telematics**, a field I'm passionate about due to its close relationship with computer science.
+My name is Ignacio Mata, but everyone calls me Nacho. I just finished my degree in **Telecommunications Engineering, specializing in telematics**, a field I'm passionate about due to its close relationship with computer science.
 
-Since March 2023, I've been working at the Mobilenet laboratory at the University of Malaga. I developed a **network management evaluation platform** that includes several access points centrally managed via a **Python API**, complemented with a **web interface** for easier administration.
+Currently, I am pursuing a **Master's Degree in Telematics and Telecommunication Networks** at the University of Málaga, with the goal of continuing into a **PhD** focused on **advanced network technologies** and their applications.
+
+Since March 2023, I've been working at the Mobilenet laboratory at the University of Málaga. I developed a **network management evaluation platform** that includes several access points centrally managed via a **Python API**, complemented with a **web interface** for easier administration.
 
 Later on, I developed a web interface for a Wi-Fi simulator using **Astro and React**. The web interface featured a Python backend, **adding concurrency** to the simulator, and a **database** to store the results.
 
-I'm currently finishing my **Erasmus exchange** in Stuttgart, Germany. This experience has strengthened my desire to work here, in the telecommunications and computer science field.
+My **Erasmus exchange** at the University of **Stuttgart, Germany**, allowed me to grow both professionally and personally, and I would love the opportunity to **return to the city** to advance my career in telecommunications and computer science.

@@ -1,6 +1,14 @@
 ---
+import { date } from "astro/zod"
 import ExperienceItem from "./ExperienceItem.astro"
 const EDUCATION = [
+  {
+    date: "September 2024 - Present",
+    title: "Master's Degree in Telematics and Telecommunication Networks",
+    company: "University of Málaga",
+    description:
+      "Official Master's Degree in the University of Málaga.",
+  },
   {
     date: "September 2020 - September 2024",
     title: "Bachelor's Degree in Telecommunication engineering",
@@ -14,7 +22,7 @@ const EDUCATION = [
     company: "University of Stuttgart",
     description:
       "Extra courses: Machine Learning, Reinforcement Learning, System and Web Security, VR & AR, and Smart Cities and IoT.",
-  },
+  }
 ]
 ---
 
